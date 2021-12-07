@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="ToMN4BnBic0PUc7Auz8ut0" LanguageVersion="2021.4.0.595" Version="0.128">
-  <NugetDependency Id="M5KjIwXBlsjPW0u3Lyubp6" Location="VL.CoreLib" Version="2021.4.0-0595-g5de64a458f" />
+<Document xmlns:p="property" Id="ToMN4BnBic0PUc7Auz8ut0" LanguageVersion="2021.4.1.684" Version="0.128">
+  <NugetDependency Id="M5KjIwXBlsjPW0u3Lyubp6" Location="VL.CoreLib" Version="2021.4.0-0602-g8ed5e0ce29" />
   <Patch Id="F7bnzPLW06JPZzJNwudf2b">
     <Canvas Id="Bir0z0GB6wqMBKzMwb1Y5m" DefaultCategory="HDE" CanvasType="FullCategory">
       <!--
@@ -1462,8 +1462,10 @@
                 </CategoryReference>
               </p:NodeReference>
               <Pin Id="J9RQfa4Ek05NJlzj7hJMS8" Name="Input" Kind="InputPin" />
-              <Pin Id="PKLnxnqV0jqNFU0DxqO10Q" Name="Output" Kind="OutputPin" />
               <Pin Id="P6KJNqBZnQHLtFUhgFR3kH" Name="Input 2" Kind="InputPin" />
+              <Pin Id="RKx2BQA6jaHLK5P7weaJ4u" Name="Debug" Kind="InputPin" />
+              <Pin Id="Umolmi1WO0cMAJBVGY77Bu" Name="Enabled" Kind="InputPin" />
+              <Pin Id="PKLnxnqV0jqNFU0DxqO10Q" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="751,668,165,19" Id="IEcjLLrVDFkPpgvYjOLXxR">
               <p:NodeReference LastCategoryFullName="Graphics.Skia.Text" LastSymbolSource="VL.Skia.vl">
@@ -1933,11 +1935,11 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="FO9enYrb55ALrJP0Rg2ljI" Location="VL.Lang" Version="2021.4.0-0595-g5de64a458f" />
-  <NugetDependency Id="RZ1cz496dpgNj0r1GJdwKs" Location="VL.HDE" Version="2021.4.0-0595-g5de64a458f" />
-  <NugetDependency Id="U4rnJ58Je0dMe7sTAiWUhv" Location="VL.CoreLib.Windows" Version="2021.4.0-0595-g5de64a458f" />
-  <NugetDependency Id="CRVooG2UmfoPpaCQEEnwjd" Location="VL.Stride" Version="2021.4.0-0595-g5de64a458f" />
-  <NugetDependency Id="VK0vlai0kHEMoTiUMOpS4j" Location="VL.Elementa" Version="5.0.11" />
+  <NugetDependency Id="FO9enYrb55ALrJP0Rg2ljI" Location="VL.Lang" Version="2021.4.0-0602-g8ed5e0ce29" />
+  <NugetDependency Id="RZ1cz496dpgNj0r1GJdwKs" Location="VL.HDE" Version="2021.4.0-0602-g8ed5e0ce29" />
+  <NugetDependency Id="U4rnJ58Je0dMe7sTAiWUhv" Location="VL.CoreLib.Windows" Version="2021.4.0-0602-g8ed5e0ce29" />
+  <NugetDependency Id="CRVooG2UmfoPpaCQEEnwjd" Location="VL.Stride" Version="2021.4.1-0684-g374452e92d" />
   <PlatformDependency Id="MeNVrlfxJAjOX51mYEZnbL" Location="System.Drawing" />
-  <NugetDependency Id="LJMogWczMoHPdmOfUeIXqP" Location="VL.Skia" Version="2021.4.0-0595-g5de64a458f" />
+  <NugetDependency Id="LJMogWczMoHPdmOfUeIXqP" Location="VL.Skia" Version="2021.4.0-0602-g8ed5e0ce29" />
+  <NugetDependency Id="FvnVB3WDvWMOAMIuwo3XfY" Location="VL.Elementa" Version="5.0.12" />
 </Document>
